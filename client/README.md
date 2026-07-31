@@ -1,16 +1,94 @@
-# React + Vite
+# 🛒 ShopSphere - Full Stack Ecommerce Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack ecommerce application built with the MERN Stack.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- User Authentication (JWT)
+- User Registration & Login
+- Admin Dashboard
+- Product Management
+- Shopping Cart
+- Order Management
+- Product Reviews
+- Responsive UI
+- Protected Routes
+- MongoDB Database
 
-## React Compiler
+## 🛠 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- React.js
+- React Router
+- Axios
+- Bootstrap
 
-## Expanding the ESLint configuration
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- bcrypt
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+```
+ShopSphere/
+│
+├── client/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── server/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── config/
+│   └── server.js
+│
+└── README.md
+```
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/cadetmishra7-prog/shopsphere-ecommerce.git
+```
+
+### Backend
+
+```bash
+cd server
+npm install
+npm run dev
+```
+
+### Frontend
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+## Environment Variables
+
+Create a `.env` inside the server folder.
+
+```
+PORT=5000
+MONGO_URI=YourMongoDBURI
+JWT_SECRET=YourSecret
+```
+
+## Author
+
+**Atul Mishra**
+
+GitHub:
+https://github.com/cadetmishra7-prog
