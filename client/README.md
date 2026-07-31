@@ -86,6 +86,16 @@ MONGO_URI=YourMongoDBURI
 JWT_SECRET=YourSecret
 ```
 
+
+
+Live Demo:
+https://shopsphere.vercel.app
+
+Backend API:
+https://shopsphere-api.onrender.com
+
+
+
 ## Author
 
 **Atul Mishra**
